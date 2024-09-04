@@ -12,12 +12,12 @@
     <form id="calculatorForm">
         <label for="creditAmount">Сума кредиту:</label>
         <input type="range" id="creditAmountSlider" min="1000" max="50000" step="1000">
-        <input type="number" id="creditAmount" required>
+        <input type="number" id="creditAmount" value="1000" required>
         <p id="creditAmountError" class="error"></p>
 
         <label for="paymentPeriod">Період погашення (днів):</label>
         <input type="range" id="paymentPeriodSlider" min="7" max="60" step="1">
-        <input type="number" id="paymentPeriod" required>
+        <input type="number" id="paymentPeriod" value="7" required>
         <p id="paymentPeriodError" class="error"></p>
 
         <button id="takeCredit" type="submit">Отримати кредит</button>
